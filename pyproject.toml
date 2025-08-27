@@ -15,7 +15,6 @@ pydantic = { version = ">=2.11.7,<3.0.0", extras = ["email"] }
 
 [tool.poetry.scripts]
 start = "app.main:main"
-dev = "app.main:dev"
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
